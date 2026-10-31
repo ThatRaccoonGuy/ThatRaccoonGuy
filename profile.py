@@ -82,8 +82,7 @@ def stats():
 
 
 def uptime():
-    # Year difference only: it ticks over on Jan 1, so the card never reveals the birth date.
-    return f"{date.today().year - BIRTH_YEAR} years"
+    return f"since {BIRTH_YEAR}"
 
 
 def info_lines(values):
